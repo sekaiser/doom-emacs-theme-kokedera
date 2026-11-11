@@ -1,0 +1,4 @@
+*.elc
+*.eln
+/.deps/
+.DS_Store

@@ -1,0 +1,36 @@
+name: Theme checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  theme:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-22.04
+            doom: d79a41f593c69697af1ddaac971c0c47ecc446a8 # Doom 2.3.0
+          - os: ubuntu-24.04
+            doom: a59202912ad55014e53a685eee6cd94130bdd4fd # Current Doom base
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          repository: doomemacs/themes
+          ref: ${{ matrix.doom }}
+          path: .deps/doom-themes
+          persist-credentials: false
+      - name: Install Emacs
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends emacs-nox
+      - name: Test theme
+        run: make check DOOM_THEMES_DIR="$PWD/.deps/doom-themes"

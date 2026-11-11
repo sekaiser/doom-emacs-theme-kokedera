@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Kokedera Summer for Doom Emacs</title>
+<desc id="desc">Face specimen rendered from the loaded Emacs theme, with fontified Emacs Lisp and Org buffers, selection, diagnostics and normal and bright ANSI colors. This is not a screenshot.</desc>
+<g font-family="'Fira Code', 'DejaVu Sans Mono', monospace" xml:space="preserve">
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#0e1d0d"/>
+<text x="44" y="65" fill="#56d165" font-size="32" font-weight="700" font-style="normal">Kokedera Summer</text>
+<text x="46" y="98" fill="#4b6540" font-size="13" font-weight="400" font-style="normal">DOOM EMACS  /  FACE SPECIMEN</text>
+<text x="1040" y="65" fill="#1fb87a" font-size="15" font-weight="400" font-style="normal">forest · leaf · stream</text>
+<text x="1040" y="94" fill="#4b6540" font-size="13" font-weight="400" font-style="normal">Original Zed palette</text>
+<rect x="44" y="137" width="664" height="617" rx="9" fill="#2c4725"/>
+<rect x="45" y="138" width="662" height="615" rx="8" fill="#0c1a0b"/>
+<rect x="45" y="138" width="662" height="38" rx="8" fill="#112510"/>
+<rect x="45" y="162" width="662" height="14" rx="0" fill="#112510"/>
+<rect x="45" y="722" width="662" height="31" rx="0" fill="#0e1d0d"/>
+<rect x="732" y="137" width="664" height="617" rx="9" fill="#2c4725"/>
+<rect x="733" y="138" width="662" height="615" rx="8" fill="#0c1a0b"/>
+<rect x="733" y="138" width="662" height="38" rx="8" fill="#112510"/>
+<rect x="733" y="162" width="662" height="14" rx="0" fill="#112510"/>
+<rect x="733" y="722" width="662" height="31" rx="0" fill="#0e1d0d"/>
+<text x="64" y="162" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">garden.el</text>
+<text x="752" y="162" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">notebook.org</text>
+<rect x="45" y="421" width="662" height="21" rx="0" fill="#132112"/>
+<text x="64.0" y="212" fill="#4b6540" font-size="14" font-weight="400" font-style="italic">;;; </text>
+<text x="97.6" y="212" fill="#4b6540" font-size="14" font-weight="400" font-style="italic">garden.el --- A small, quiet workspace</text>
+<text x="64.0" y="233" fill="#4b6540" font-size="14" font-weight="400" font-style="italic">;; </text>
+<text x="89.2" y="233" fill="#4b6540" font-size="14" font-weight="400" font-style="italic">Kokedera Summer / Doom Emacs</text>
+<text x="64.0" y="275" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">(</text>
+<text x="72.4" y="275" fill="#2ec75a" font-size="14" font-weight="400" font-style="normal">defgroup</text>
+<text x="139.60000000000002" y="275" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> </text>
+<text x="148.0" y="275" fill="#1fb87a" font-size="14" font-weight="400" font-style="normal">garden</text>
+<text x="198.4" y="275" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> nil</text>
+<text x="64.0" y="296" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">  </text>
+<text x="80.8" y="296" fill="#6e8e5b" font-size="14" font-weight="400" font-style="italic">&quot;A place to think.&quot;</text>
+<text x="64.0" y="317" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">  </text>
+<text x="80.8" y="317" fill="#1fb87a" font-size="14" font-weight="400" font-style="normal">:group</text>
+<text x="131.2" y="317" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> 'tools)</text>
+<text x="64.0" y="359" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">(</text>
+<text x="72.4" y="359" fill="#2ec75a" font-size="14" font-weight="400" font-style="normal">defcustom</text>
+<text x="148.0" y="359" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> </text>
+<text x="156.4" y="359" fill="#9fd67f" font-size="14" font-weight="400" font-style="normal">garden-directory</text>
+<text x="290.8" y="359" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> </text>
+<text x="299.20000000000005" y="359" fill="#e0c565" font-size="14" font-weight="400" font-style="normal">&quot;~/garden/&quot;</text>
+<text x="64.0" y="380" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">  </text>
+<text x="80.8" y="380" fill="#6e8e5b" font-size="14" font-weight="400" font-style="italic">&quot;Where the notes take root.&quot;</text>
+<text x="64.0" y="401" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">  </text>
+<text x="80.8" y="401" fill="#1fb87a" font-size="14" font-weight="400" font-style="normal">:type</text>
+<text x="122.80000000000001" y="401" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> 'directory)</text>
+<text x="64.0" y="443" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">(</text>
+<text x="72.4" y="443" fill="#2ec75a" font-size="14" font-weight="400" font-style="normal">defun</text>
+<text x="114.4" y="443" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> </text>
+<text x="122.80000000000001" y="443" fill="#7fd05f" font-size="14" font-weight="400" font-style="normal">garden-open</text>
+<text x="215.20000000000002" y="443" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> (name)</text>
+<text x="64.0" y="464" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">  </text>
+<text x="80.8" y="464" fill="#6e8e5b" font-size="14" font-weight="400" font-style="italic">&quot;Visit the note called NAME.&quot;</text>
+<text x="64.0" y="485" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">  (</text>
+<text x="89.2" y="485" fill="#2ec75a" font-size="14" font-weight="400" font-style="normal">interactive</text>
+<text x="181.60000000000002" y="485" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> </text>
+<text x="190.0" y="485" fill="#e0c565" font-size="14" font-weight="400" font-style="normal">&quot;sNote: &quot;</text>
+<text x="265.6" y="485" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">)</text>
+<text x="64.0" y="506" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">  (</text>
+<text x="89.2" y="506" fill="#2ec75a" font-size="14" font-weight="400" font-style="normal">let</text>
+<text x="114.4" y="506" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> ((file (expand-file-name</text>
+<text x="64.0" y="527" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">               (concat name </text>
+<text x="299.20000000000005" y="527" fill="#e0c565" font-size="14" font-weight="400" font-style="normal">&quot;.org&quot;</text>
+<text x="349.6" y="527" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">)</text>
+<text x="64.0" y="548" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">               garden-directory)))</text>
+<text x="64.0" y="569" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">    (</text>
+<text x="106.0" y="569" fill="#2ec75a" font-size="14" font-weight="400" font-style="normal">unless</text>
+<text x="156.4" y="569" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> (file-exists-p file)</text>
+<text x="64.0" y="590" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">      (message </text>
+<text x="190.0" y="590" fill="#e0c565" font-size="14" font-weight="400" font-style="normal">&quot;Planting a new note: %s&quot;</text>
+<text x="400.0" y="590" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> name))</text>
+<text x="64.0" y="611" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">    (find-file file)))</text>
+<text x="64.0" y="653" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">(</text>
+<text x="72.4" y="653" fill="#2ec75a" font-size="14" font-weight="400" font-style="normal">provide</text>
+<text x="131.2" y="653" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> '</text>
+<text x="148.0" y="653" fill="#d1a44e" font-size="14" font-weight="400" font-style="normal">garden</text>
+<text x="198.4" y="653" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">)</text>
+<text x="752.0" y="212" fill="#4b6540" font-size="14" font-weight="400" font-style="normal">#+title:</text>
+<text x="819.2" y="212" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> </text>
+<text x="827.6" y="212" fill="#56d165" font-size="14" font-weight="700" font-style="normal">A summer notebook</text>
+<text x="752.0" y="254" fill="#56d165" font-size="14" font-weight="700" font-style="normal">* Working in the garden</text>
+<text x="752.0" y="275" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">Keep the palette quiet. Let the work stand out.</text>
+<text x="752.0" y="317" fill="#7fd05f" font-size="14" font-weight="700" font-style="normal">** The next small thing</text>
+<text x="752.0" y="338" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">- </text>
+<text x="768.8" y="338" fill="#56d165" font-size="14" font-weight="700" font-style="normal">[X]</text>
+<text x="794.0" y="338" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> Keep the source colors</text>
+<text x="752.0" y="359" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">- </text>
+<text x="768.8" y="359" fill="#56d165" font-size="14" font-weight="700" font-style="normal">[X]</text>
+<text x="794.0" y="359" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> Bring Org and Magit along</text>
+<text x="752.0" y="380" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">- </text>
+<text x="768.8" y="380" fill="#56d165" font-size="14" font-weight="700" font-style="normal">[ ]</text>
+<text x="794.0" y="380" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal"> Plant something new</text>
+<text x="752.0" y="422" fill="#6e8e5b" font-size="14" font-weight="400" font-style="italic">#+begin_src emacs-lisp</text>
+<text x="752.0" y="443" fill="#4b6540" font-size="14" font-weight="400" font-style="normal">(</text>
+<text x="760.4" y="443" fill="#2ec75a" font-size="14" font-weight="400" font-style="normal">setq</text>
+<text x="794.0" y="443" fill="#4b6540" font-size="14" font-weight="400" font-style="normal"> doom-theme 'doom-kokedera-summer)</text>
+<text x="752.0" y="464" fill="#6e8e5b" font-size="14" font-weight="400" font-style="italic">#+end_src</text>
+<text x="752.0" y="506" fill="#1fb87a" font-size="14" font-weight="400" font-style="normal">| Surface  | Color   |</text>
+<text x="752.0" y="527" fill="#1fb87a" font-size="14" font-weight="400" font-style="normal">|----------+---------|</text>
+<text x="752.0" y="548" fill="#1fb87a" font-size="14" font-weight="400" font-style="normal">| Forest   | #0c1a0b |</text>
+<text x="752.0" y="569" fill="#1fb87a" font-size="14" font-weight="400" font-style="normal">| Leaf     | #7fd05f |</text>
+<text x="752.0" y="590" fill="#1fb87a" font-size="14" font-weight="400" font-style="normal">| Stream   | #1fb87a |</text>
+<text x="752.0" y="632" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">A link to Kokedera and </text>
+<text x="945.2" y="632" fill="#e0c565" font-size="14" font-weight="400" font-style="normal">=inline code=</text>
+<text x="1054.4" y="632" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">.</text>
+<text x="64" y="743" fill="#d2e7bd" font-size="12" font-weight="400" font-style="normal">NORMAL   garden.el                 Emacs Lisp</text>
+<text x="752" y="743" fill="#d2e7bd" font-size="12" font-weight="400" font-style="normal">NORMAL   notebook.org                    Org</text>
+<text x="45" y="795" fill="#4b6540" font-size="12" font-weight="400" font-style="normal">ANSI</text>
+<rect x="110" y="780" width="44" height="18" rx="3" fill="#112510"/>
+<rect x="110" y="803" width="44" height="18" rx="3" fill="#4b6540"/>
+<rect x="162" y="780" width="44" height="18" rx="3" fill="#c45a5a"/>
+<rect x="162" y="803" width="44" height="18" rx="3" fill="#d47070"/>
+<rect x="214" y="780" width="44" height="18" rx="3" fill="#3dd65a"/>
+<rect x="214" y="803" width="44" height="18" rx="3" fill="#56d165"/>
+<rect x="266" y="780" width="44" height="18" rx="3" fill="#cfae3a"/>
+<rect x="266" y="803" width="44" height="18" rx="3" fill="#e0c565"/>
+<rect x="318" y="780" width="44" height="18" rx="3" fill="#1fb87a"/>
+<rect x="318" y="803" width="44" height="18" rx="3" fill="#3fd0a8"/>
+<rect x="370" y="780" width="44" height="18" rx="3" fill="#9a7abf"/>
+<rect x="370" y="803" width="44" height="18" rx="3" fill="#b49ad4"/>
+<rect x="422" y="780" width="44" height="18" rx="3" fill="#3dbf9f"/>
+<rect x="422" y="803" width="44" height="18" rx="3" fill="#62c9ae"/>
+<rect x="474" y="780" width="44" height="18" rx="3" fill="#d2e7bd"/>
+<rect x="474" y="803" width="44" height="18" rx="3" fill="#e5f5d3"/>
+<rect x="625" y="780" width="180" height="42" rx="4" fill="#163b1a"/>
+<text x="646" y="807" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">Selection</text>
+<rect x="832" y="780" width="180" height="42" rx="4" fill="#414421"/>
+<text x="862" y="807" fill="#d2e7bd" font-size="14" font-weight="400" font-style="normal">Search match</text>
+<text x="1080" y="794" fill="#3dd65a" font-size="14" font-weight="400" font-style="normal">+ additions</text>
+<text x="1245" y="794" fill="#cfae3a" font-size="14" font-weight="400" font-style="normal">warnings</text>
+<text x="1080" y="820" fill="#c45a5a" font-size="14" font-weight="400" font-style="normal">− deletions</text>
+<text x="1245" y="820" fill="#1fb87a" font-size="14" font-weight="400" font-style="normal">types</text>
+<text x="45" y="865" fill="#4b6540" font-size="12" font-weight="400" font-style="normal">Palette: Florian Mühlhans  ·  Emacs port: sekaiser  ·  MIT</text>
+</g>
+</svg>
